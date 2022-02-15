@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Who's The Best NFL Player</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="logo-title">
+      <img
+        id="logo"
+        src="images/National_Football_League_logo.svg.png"
+        alt="NFL Logo"
+      />
+      <h1 id="title">Who Is The NFL's Best Player?</h1>
+    </header>
+    <article>
+      <p id="description">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+        debitis odio delectus exercitationem nihil ipsa accusamus assumenda
+        ullam. Accusantium itaque sit quam corrupti, iusto excepturi optio
+        molestias aperiam qui eligendi. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Quo non quis rerum iusto! Explicabo molestias quisquam
+        dolor, architecto doloremque provident fuga quaerat. Magni suscipit, ut
+        asperiores nobis ratione porro debitis! Lorem, ipsum dolor sit amet
+        consectetur adipisicing elit. Doloribus, sit. Accusamus labore
+        praesentium quae! Quisquam provident nobis, beatae accusamus at nisi
+        sequi suscipit sit, voluptas iusto unde error aut eum? Lorem ipsum dolor
+        sit amet, consectetur adipisicing elit. Voluptatum atque maxime nesciunt
+        velit beatae cupiditate error, ducimus ab nam aliquam? Recusandae sint
+        dolores voluptatum culpa quidem porro quibusdam excepturi nostrum. Lorem
+        ipsum dolor sit, amet consectetur adipisicing elit. Iste asperiores
+        incidunt ipsa, minus deleniti saepe? Consequuntur libero aliquam, quos
+        voluptate, aliquid consequatur mollitia, officia dolores nihil sapiente
+        voluptatibus! Neque, consectetur!
+      </p>
+    </article>
+
+    <form id="survey-form">
+      <label for="name" id="name-label">Name</label>
+      <input
+        type="text"
+        name="name"
+        id="name"
+        class="form-control"
+        placeholder="Enter Your Name"
+        required
+      />
+
+      <label for="email" id="email-label">Email</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        class="form-control"
+        placeholder="Enter Email Address"
+        required
+      />
+
+      <label for="number" id="number-label"
+        >Age<span class="option">(Optional)</span></label
+      >
+      <input
+        type="number"
+        id="number"
+        min="0"
+        max="200"
+        class="form-control"
+        placeholder="Age"
+        required
+      />
+
+      <label for="fav-team" id="fav-team-lable">Favorite NFL team?</label>
+      <select name="fav-team" id="dropdown" class="form-control" required>
+        <option disabled="" selected="" value="">Select your team</option>
+        <option value="Arizona Cardinals">Arizona Cardinals</option>
+        <option value="Atlanta Falcons">Atlanta Falcons</option>
+        <option value="Baltimore Ravens">Baltimore Ravens</option>
+        <option value="Buffalo Bills">Buffalo Bills</option>
+        <option value="Carolina Panthers">Carolina Panthers</option>
+        <option value="Cincinnati Bengals">Cincinnati Bengals</option>
+        <option value="Cleveland Browns">Cleveland Browns</option>
+        <option value="Dallas Cowboys">Dallas Cowboys</option>
+        <option value="Denver Broncos">Denver Broncos</option>
+        <option value="Detroit Lions">Detroit Lions</option>
+        <option value="Green Bay PAckers">Green Bay Packers</option>
+        <option value="Houston Texans">Huston Texans</option>
+        <option value="Indianapolis Colts">Indianapolis Colts</option>
+        <option value="Jacksonville Jaguars">Jacksonville Jaguars</option>
+        <option value="Kansas City Chiefs">Kansas City Chiefs</option>
+        <option value="Las Vegas Raiders">Las Vegas Raiders</option>
+        <option value="Los Angeles Charges">Los Angeles Charges</option>
+        <option value="Los Angeles Rams">Los Angeles Rams</option>
+        <option value="Miami Dolphins">Miami Dolphins</option>
+        <option value="Minnesota Vikings">Minnesota Vikings</option>
+        <option value="New England Patriots">New England Patriots</option>
+        <option value="New Orleans Saints">New Orleans Saints</option>
+        <option value="New York Giants">New York Giants</option>
+        <option value="New York Jets">New York Jets</option>
+        <option value="Philadelphia Eagles">Philadelphia Eagles</option>
+        <option value="Pittsburgh Steelers">Pittsburgh Steelers</option>
+        <option value="San Francisco 49ers">San Francisco 49ers</option>
+        <option value="Seattle Seahawks">Arizona Cardinals</option>
+        <option value="Arizona Cardinals">Seattle Seahawks</option>
+        <option value="Tampa Bay Buccaneers">Tampa Bay Buccaneers</option>
+        <option value="Tennessee Titans">Tennessee Titans</option>
+        <option value="Washington Football Team">
+          Washington Football Team
+        </option>
+      </select>
+
+      <div class="qb-section">
+        <h4 id="qb-heading">Yes we are still going to ask :)</h4>
+        <p id="question-fav-qb">Who is your favorite quarterback</p>
+        <input
+          type="radio"
+          name="fav-qb"
+          id="aaron-rogers"
+          class="qb-name"
+          value="aaron-rogers"
+        />
+        <label for="aaron-rogers">Aaron Rogers</label><br />
+
+        <input
+          type="radio"
+          name="fav-qb"
+          id="tom-brady"
+          class="qb-name"
+          value="tom-brady"
+        />
+        <label for="tom-brady">Tom Brady</label><br />
+        <input
+          type="radio"
+          name="fav-qb"
+          id="patrick-mahomes"
+          class="qb-name"
+          value="patrick-mahomes"
+        />
+        <label for="patrick-mahomes">Patrick Mahomes</label><br />
+        <input
+          type="radio"
+          name="fav-qb"
+          id="josh-allen"
+          class="qb-name"
+          value="josh-allen"
+        />
+        <label for="josh-allen">Josh Allen</label><br />
+        <input
+          type="radio"
+          name="fav-qb"
+          id="other"
+          class="qb-name"
+          value="other"
+        />
+        <label for="other">Other</label><br />
+        <h4>If you chose other, who is you favorite?</h4>
+        <textarea
+          name="fav-qb"
+          id="other"
+          class="form-control"
+          cols="20"
+          rows="1"
+        ></textarea>
+      </div>
+
+      <h4>Let us know some of the other positions your like?</h4>
+      <div class="fav-positions">
+        <label for="quarterback" class="checkbox-control">
+          <input
+            type="checkbox"
+            name="positions"
+            id="quarterback"
+            value="quarterback"
+          />
+          Quarterback</label
+        >
+
+        <label for="wide-receiver" class="checkbox-control">
+          <input
+            type="checkbox"
+            name="positions"
+            id="wide-receiver"
+            value="wide-receiver"
+          />
+          Wide-Receiver</label
+        >
+
+        <label for="tight-end" class="checkbox-control">
+          <input
+            type="checkbox"
+            name="positions"
+            id="tight-end"
+            value="tight-end"
+          />
+          Tight-End</label
+        >
+
+        <label for="linebacker" class="checkbox-control">
+          <input
+            type="checkbox"
+            name="positions"
+            id="linebacker"
+            value="linebacker"
+          />
+          Linebacker</label
+        >
+
+        <label for="cornerback" class="checkbox-control">
+          <input
+            type="checkbox"
+            name="positions"
+            id="cornerback"
+            value="cornerback"
+          />
+          Cornerback</label
+        >
+      </div>
+      <br />
+      <button type="submit" id="submit">Submit</button>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
